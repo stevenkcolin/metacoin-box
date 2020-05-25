@@ -7,7 +7,8 @@
     "test": "test"
   },
   "dependencies": {
-    "@openzeppelin/cli": "^2.8.2"
+    "@openzeppelin/cli": "^2.8.2",
+    "web3": "^1.2.8"
   },
   "devDependencies": {
     "@truffle/hdwallet-provider": "^1.0.35"

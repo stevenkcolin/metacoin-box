@@ -17,6 +17,14 @@ module.exports = {
       ),
       networkId: 3,
       gasPrice: 10e9
+    },
+    mainnet: {
+      provider: () => new HDWalletProvider(
+        mnemonic, 'https://mainnet.infura.io/v3/65ea3ed956c44aca8c46cb48a782712b'
+      ),
+      networkId: 1,
+      gas: 200000,
+      gasPrice: 2e9
     }
   },
 };
