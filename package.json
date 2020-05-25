@@ -1,0 +1,27 @@
+{
+  "name": "metacoin-box",
+  "version": "1.0.0",
+  "description": "MetaCoin example Truffle project",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenkcolin/metacoin-box.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenkcolin/metacoin-box/issues"
+  },
+  "homepage": "https://github.com/stevenkcolin/metacoin-box#readme"
+}
