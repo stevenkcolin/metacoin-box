@@ -1,0 +1,14 @@
+{
+  "contracts": {},
+  "solidityLibs": {},
+  "proxies": {
+    "metacoin-box/ThirdAngle": [
+      {
+        "address": "0x9f05719e6B1C70E9A2cc39B39b1Bf247916020F5",
+        "kind": "NonProxy",
+        "bytecodeHash": "5444ac5b931289cd6ee32e2bd510da9dbb3d27ed7c1d32c14f3dd3cc97985694"
+      }
+    ]
+  },
+  "manifestVersion": "2.2"
+}
