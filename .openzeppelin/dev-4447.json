@@ -1,12 +1,27 @@
 {
   "contracts": {},
-  "solidityLibs": {},
+  "solidityLibs": {
+    "ConvertLib": {
+      "address": "0xC42f94860d2418dCC17717e1202cd85530357B24",
+      "constructorCode": "60c3610025600b82828239805160001a60731461001857fe5b30600052607381538281f3fe",
+      "bodyBytecodeHash": "ee0d59a4432e0c6004853c9e1fc44d94edd8d7fbb6df77d58e90efd824cd0146",
+      "localBytecodeHash": "4187aebafa63c09a1b9112d498f2dd1a6da14625a54e439fe3f7ce70a9bb9358",
+      "deployedBytecodeHash": "4187aebafa63c09a1b9112d498f2dd1a6da14625a54e439fe3f7ce70a9bb9358"
+    }
+  },
   "proxies": {
     "metacoin-box/ThirdAngle": [
       {
         "address": "0x9f05719e6B1C70E9A2cc39B39b1Bf247916020F5",
         "kind": "NonProxy",
         "bytecodeHash": "5444ac5b931289cd6ee32e2bd510da9dbb3d27ed7c1d32c14f3dd3cc97985694"
+      }
+    ],
+    "metacoin-box/MetaCoin": [
+      {
+        "address": "0xA2576AaE9776803a580aB3884FD9ce20498f630f",
+        "kind": "NonProxy",
+        "bytecodeHash": "db3a6e732515fdfa46c65a2f56d91326fe1cce5c0a43229dfe0f6c58ab169e3b"
       }
     ]
   },
